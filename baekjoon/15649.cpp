@@ -1,4 +1,4 @@
-// 15649 - backtracking 문제
+// 15649 - backtracking 문제.
 #include <bits/stdc++.h>
 using namespace std;
 
