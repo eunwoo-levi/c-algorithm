@@ -1,4 +1,4 @@
-// 7576 - bfs   , 여러개 bfs를 동시에 한번에 동작하는 경우
+// 백준 7576 - 토마토 문제
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -8,7 +8,6 @@ const int dy[4] = {-1,0,1,0},dx[4] = {0,1,0,-1};
 queue<pair<int,int>> Q;
 
 int main(){
-    ios::sync_with_stdio(0); cin.tie(0); cout.tie(0);
     cin >> m >> n;
 
     int flag = 0;
